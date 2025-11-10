@@ -1,0 +1,78 @@
+/* Reset & Base Styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: 'Arial', sans-serif;
+line-height: 1.6;
+color: #333;
+}
+/* Container for consistent width */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+/* ===================================
+HEADER SECTION
+=================================== */
+.main-header {
+background-color: #498e24;
+padding: 30px 0;
+}
+.main-header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+font-size: 24px;
+font-weight: bold;
+color: #ffffff;
+}
+
+.main-nav a {
+color: #ffffff;
+text-decoration: none;
+margin-left: 30px;
+}
+/* ===================================
+HERO SECTION
+=================================== */
+.hero {
+background-color: #9920a6;
+color: #285588;
+padding: 90px 0;
+text-align: center;
+}
+.hero-title {
+font-size: 48px;
+margin-bottom: 20px;
+}
+.hero-subtitle {
+font-size: 20px;
+margin-bottom: 30px;
+}
+/* ===================================
+BUTTONS
+=================================== */
+.btn {
+padding: 20px 40px;
+font-size: 22px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.btn-primary {
+background-color: #80058e;
+color: #390808;
+}
+
+/* ===================================
+NOTES FOR FUTURE LESSONS:
+- Each new lesson will add sections BELOW
+- Keep this file organized with comments
+- We'll enhance existing sections as we learn more
+=================================== */
